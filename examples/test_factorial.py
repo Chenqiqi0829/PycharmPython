@@ -12,7 +12,7 @@ class test_factorial():
                 s=int(s)*int(i)
             print("%s 的阶乘是：%s" %(num,s))
         else:
-            print("请输入数字！")
+            print("请输入正整数！")
             m=test_factorial()
             m.factorial()
 if __name__=='__main__':
